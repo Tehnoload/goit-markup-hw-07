@@ -16,30 +16,34 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
     <header>
       <div class="container head">
-        <nav class="nav">
+        <nav class="navigation">
           <a href="./index.html" class="logo"><span>Web</span>Studio</a>
           <ul class="site-nav">
-            <li class="nav-item">
-              <a href="./index.html" class="nav-link">Студія</a>
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link">Студія</a>
             </li>
-            <li class="nav-item">
-              <a href="./portfolio.html" class="nav-link current">Портфоліо</a>
+            <li class="site-nav__item">
+              <a
+                href="./portfolio.html"
+                class="site-nav__link site-nav__link_border_blue"
+                >Портфоліо</a
+              >
             </li>
-            <li class="nav-item">
-              <a href="#Контакти" class="nav-link">Контакти</a>
+            <li class="site-nav__item">
+              <a href="#Контакти" class="site-nav__link">Контакти</a>
             </li>
           </ul>
         </nav>
         <ul class="address-nav">
-          <li class="address">
-            <a href="mailto:info@devstudio.com" class="nav-link">
-              <svg class="mail">
+          <li class="address-nav__contacts">
+            <a href="mailto:info@devstudio.com" class="address-nav__link">
+              <svg class="address-nav__mail">
                 <use
                   href="./images/icons.svg#icon-mail"
                   width="16"
@@ -49,9 +53,9 @@
               info@devstudio.com</a
             >
           </li>
-          <li class="address">
-            <a href="tel:+380961111111" class="nav-link">
-              <svg class="mail telephone">
+          <li class="address-nav__contacts">
+            <a href="tel:+380961111111" class="address-nav__link">
+              <svg class="address-nav__mail telephone">
                 <use
                   href="./images/icons.svg#icon-telephone"
                   width="10"

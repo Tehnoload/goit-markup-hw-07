@@ -16,31 +16,34 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
-
     <header>
       <div class="container head">
-        <nav class="nav">
+        <nav class="navigation">
           <a href="./index.html" class="logo"><span>Web</span>Studio</a>
           <ul class="site-nav">
-            <li class="nav-item">
-              <a href="./index.html" class="nav-link current">Студія</a>
+            <li class="site-nav__item">
+              <a
+                href="./index.html"
+                class="site-nav__link site-nav__link_border_blue"
+                >Студія</a
+              >
             </li>
-            <li class="nav-item">
-              <a href="./portfolio.html" class="nav-link">Портфоліо</a>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link">Портфоліо</a>
             </li>
-            <li class="nav-item">
-              <a href="#Контакти" class="nav-link">Контакти</a>
+            <li class="site-nav__item">
+              <a href="#Контакти" class="site-nav__link">Контакти</a>
             </li>
           </ul>
         </nav>
         <ul class="address-nav">
-          <li class="address">
-            <a href="mailto:info@devstudio.com" class="nav-link">
-              <svg class="mail">
+          <li class="address-nav__contacts">
+            <a href="mailto:info@devstudio.com" class="address-nav__link">
+              <svg class="address-nav__mail">
                 <use
                   href="./images/icons.svg#icon-mail"
                   width="16"
@@ -50,9 +53,9 @@
               info@devstudio.com</a
             >
           </li>
-          <li class="address">
-            <a href="tel:+380961111111" class="nav-link">
-              <svg class="mail telephone">
+          <li class="address-nav__contacts">
+            <a href="tel:+380961111111" class="address-nav__link">
+              <svg class="address-nav__mail telephone">
                 <use
                   href="./images/icons.svg#icon-telephone"
                   width="10"
@@ -80,9 +83,9 @@
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
           <ul class="advant">
-            <li class="advant-item">
-              <div class="advant-icon">
-                <svg class="icon">
+            <li class="advant__item">
+              <div class="advant__icon">
+                <svg class="advant__icon-svg">
                   <use
                     href="./images/icons.svg#icon-antenna"
                     width="70"
@@ -91,14 +94,14 @@
                 </svg>
               </div>
               <h3 class="item">Увага до деталей</h3>
-              <p class="text">
+              <p class="advant__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="advant-item">
-              <div class="advant-icon">
-                <svg class="icon">
+            <li class="advant__item">
+              <div class="advant__icon">
+                <svg class="advant__icon-svg">
                   <use
                     href="./images/icons.svg#icon-clock"
                     width="70"
@@ -107,14 +110,14 @@
                 </svg>
               </div>
               <h3 class="item">Пунктуальність</h3>
-              <p class="text">
+              <p class="advant__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="advant-item">
-              <div class="advant-icon">
-                <svg class="icon">
+            <li class="advant__item">
+              <div class="advant__icon">
+                <svg class="advant__icon-svg">
                   <use
                     href="./images/icons.svg#icon-comp"
                     width="70"
@@ -123,13 +126,13 @@
                 </svg>
               </div>
               <h3 class="item">Планування</h3>
-              <p class="text">
+              <p class="advant__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="advant-item">
-              <div class="advant-icon">
-                <svg class="icon">
+            <li class="advant__item">
+              <div class="advant__icon">
+                <svg class="advant__icon-svg">
                   <use
                     href="./images/icons.svg#icon-astronaut"
                     width="70"
@@ -138,7 +141,7 @@
                 </svg>
               </div>
               <h3 class="item">Сучасні технології</h3>
-              <p class="text">
+              <p class="advant__text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -151,40 +154,40 @@
         <div class="container">
           <h2 class="title-second">Чим ми займаємося</h2>
           <ul class="about">
-            <li class="about-item">
+            <li class="about__item">
               <img
-                class="img"
+                class="about__img"
                 src="./images/work/program.jpg"
                 alt="Руки на клавіатурі перед монітором"
                 width="370"
                 height="294"
               />
-              <div class="box-bg">
-                <p class="box-text">Десктопні додатки</p>
+              <div class="about__box-bg">
+                <p class="about__box-text">Десктопні додатки</p>
               </div>
             </li>
-            <li class="about-item">
+            <li class="about__item">
               <img
-                class="img"
+                class="about__img"
                 src="./images/work/application.jpg"
                 alt="Людина тримає в руці мобільний телефон та працює за ноутбуком"
                 width="370"
                 height="294"
               />
-              <div class="box-bg">
-                <p class="box-text">Мобільні додатки</p>
+              <div class="about__box-bg">
+                <p class="about__box-text">Мобільні додатки</p>
               </div>
             </li>
-            <li class="about-item">
+            <li class="about__item">
               <img
-                class="img"
+                class="about__img"
                 src="./images/work/design.jpg"
                 alt="Людина працює на планшеті з палітрою кольорів"
                 width="370"
                 height="294"
               />
-              <div class="box-bg">
-                <p class="box-text">Дизайнерські рішення</p>
+              <div class="about__box-bg">
+                <p class="about__box-text">Дизайнерські рішення</p>
               </div>
             </li>
           </ul>
